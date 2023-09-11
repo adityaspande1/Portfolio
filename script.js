@@ -40,7 +40,7 @@ const textLoad=()=>{
 }
 textLoad();
 
-// setInterval(textLoad,12000);
+setInterval(textLoad,12000);
 // var tl= gsap.timeline();
 
 // tl.from(".navbar h3,.menu li",{
