@@ -33,10 +33,11 @@ const textLoad=()=>{
     },8000);
     setTimeout(()=>{
         text.textContent="Learner";
-        textLoad();
+       
     },12000);
   
 }
+ textLoad();
  
 
 // setInterval(textLoad,12000);
