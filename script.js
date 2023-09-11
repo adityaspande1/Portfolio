@@ -34,9 +34,9 @@ const textLoad=()=>{
     setTimeout(()=>{
         text.textContent="Learner";
     },12000);
-   
+   textLoad();
 }
-textLoad();
+
 // setInterval(textLoad,12000);
 // var tl= gsap.timeline();
 
